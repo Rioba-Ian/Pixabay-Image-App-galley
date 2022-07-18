@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Retrieving pictures from pixabay and react app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Our application retrieves data (images, stats, tags) of images from the pixabay API and displays them. 
 
-## Available Scripts
+The features of the app include
 
-In the project directory, you can run:
+* Searching for specific images 
+* Tagging photos based on a certain category
+* Displaying statistics for a particular image
 
-### `npm start`
+## Preview of the application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. when it is loading
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![](Screenshot_20220718_211815.png)
 
-### `npm test`
+2. When loaded 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](Screenshot_20220718_212002.png)
 
-### `npm run build`
+3. Searching for image
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](Screenshot_20220718_212032.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. When there is no result for image
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](Screenshot_20220718_212054.png)
 
-### `npm run eject`
+# React and tailwind
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project uses the create react app 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+``
+npx create-react-app project-name
+``
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We have used tailwind for the frontend development.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Credits and acknowledgment
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is a project which I tried as much to learn from Travesy Media youtube channel. I have done changes in the UI abit and also for the current date, react and tailwind have default configurations. 
